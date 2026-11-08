@@ -1,0 +1,4 @@
+exposure_type,odds_ratio,ci95_lower,ci95_upper,significance_as_reported,outcome,study_period,emergency_admissions_n,source_url,source_note
+Daytime heatwave only,1.04,1.02,1.06,statistically_significant,Emergency hospital admission,2011-2019 June-September,2010769,https://doi.org/10.1029/2026GH001920,"Published adjusted estimates, not raw admissions data. NHIS access requires formal approval."
+Nighttime heatwave only,1.00,0.98,1.02,not_statistically_significant,Emergency hospital admission,2011-2019 June-September,2010769,https://doi.org/10.1029/2026GH001920,"Published adjusted estimates, not raw admissions data. NHIS access requires formal approval."
+Compound daytime_and_nighttime heatwave,1.07,1.06,1.09,statistically_significant,Emergency hospital admission,2011-2019 June-September,2010769,https://doi.org/10.1029/2026GH001920,"Published adjusted estimates, not raw admissions data. NHIS access requires formal approval."
