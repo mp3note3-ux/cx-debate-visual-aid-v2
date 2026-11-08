@@ -1,0 +1,6 @@
+programme_metric,value,unit,description,source_url,source_note
+Homeless-person cooling shelters,11,sites,Round-the-clock operation in policy announcement; check facility-specific exceptions,https://www.seoul.go.kr/news/news_report.do?nttNo=459300,Published programme counts; different programmes and units should not be summed.
+Jjokbang resident daytime cooling shelters,8,sites,Daytime cooling shelters,https://www.seoul.go.kr/news/news_report.do?nttNo=459300,Published programme counts; different programmes and units should not be summed.
+Jjokbang resident nighttime heat refuges,6,sites,Nighttime heat refuges,https://www.seoul.go.kr/news/news_report.do?nttNo=459300,Published programme counts; different programmes and units should not be summed.
+Shared air conditioners in jjokbang areas,209,units,Communal AC electricity and cleaning support,https://www.seoul.go.kr/news/news_report.do?nttNo=459300,Published programme counts; different programmes and units should not be summed.
+Special-protection residents receiving nurse visits,141,people,Health checks by visiting nurses,https://www.seoul.go.kr/news/news_report.do?nttNo=459300,Published programme counts; different programmes and units should not be summed.
