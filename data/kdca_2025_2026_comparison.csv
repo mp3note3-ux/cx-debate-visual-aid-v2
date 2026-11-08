@@ -1,0 +1,7 @@
+metric,2025_value,2026_value,unit,change_pct,source_url,source_note
+All heat-illness cases,4460,4066,people,-8.8,https://www.kdca.go.kr/bbs/kdca/42/310219/download.do,Year-on-year values transcribed from KDCA 2026 report; sample-based surveillance and may include suspected deaths in total.
+Suspected heat deaths,29,36,people,24.1,https://www.kdca.go.kr/bbs/kdca/42/310219/download.do,Year-on-year values transcribed from KDCA 2026 report.
+Age 65+,1341,1421,people,6.0,https://www.kdca.go.kr/bbs/kdca/42/310219/download.do,Year-on-year values transcribed from KDCA 2026 report.
+Indoor occurrence,926,1004,people,8.4,https://www.kdca.go.kr/bbs/kdca/42/310219/download.do,Year-on-year values transcribed from KDCA 2026 report.
+Outdoor occurrence,3534,3062,people,-13.4,https://www.kdca.go.kr/bbs/kdca/42/310219/download.do,Year-on-year values transcribed from KDCA 2026 report.
+At home occurrence,237,353,people,48.9,https://www.kdca.go.kr/bbs/kdca/42/310219/download.do,Year-on-year values transcribed from KDCA 2026 report.
