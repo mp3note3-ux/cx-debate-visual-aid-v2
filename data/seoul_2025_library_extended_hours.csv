@@ -1,0 +1,5 @@
+metric,value,unit,description,source_url,source_note
+Libraries in extended-hours programme,122,libraries,Open until 10:00 PM,https://english.seoul.go.kr/122-seoul-public-libraries-extend-hours-to-10-pm-transforming-into-climate-shelters/,The programme ran until 10 PM; this is not evidence of overnight opening.
+Nighttime staff,378,staff,Staff associated with the extended-hours programme,https://english.seoul.go.kr/122-seoul-public-libraries-extend-hours-to-10-pm-transforming-into-climate-shelters/,Staffing figure is for the broader programme.
+Programme budget,10600000000,KRW,Budget for the broader extended-hours programme,https://english.seoul.go.kr/122-seoul-public-libraries-extend-hours-to-10-pm-transforming-into-climate-shelters/,Not a dedicated overnight heat-shelter budget.
+Evening cultural programmes,170,programmes,170+ evening cultural programmes; value is a lower bound,https://english.seoul.go.kr/122-seoul-public-libraries-extend-hours-to-10-pm-transforming-into-climate-shelters/,Published as 170+ programmes.
