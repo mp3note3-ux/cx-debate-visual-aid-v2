@@ -1,0 +1,4 @@
+measure,value,unit,where_reported,source_url,source_note
+Unique records reported in abstract,3718,records,abstract,https://doi.org/10.1093/oxfclm/kgaf020,Abstract-level summary only; article flow diagram reports a different records-screened count. Do not combine stages into a funnel.
+Studies included in systematic review,5,studies,abstract,https://doi.org/10.1093/oxfclm/kgaf020,Abstract-level summary only.
+Studies reporting real-world health outcomes for cooling-centre users,0,studies,abstract,https://doi.org/10.1093/oxfclm/kgaf020,Absence of direct outcome studies is an evidence gap, not proof of no effectiveness.
