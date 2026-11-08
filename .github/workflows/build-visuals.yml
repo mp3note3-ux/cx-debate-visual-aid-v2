@@ -1,0 +1,58 @@
+name: Build debate visual aids
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "make_visuals.py"
+      - "data/**"
+      - "requirements.txt"
+      - ".github/workflows/build-visuals.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: build-visual-aids-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Korean fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+          fc-cache -f
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate PNGs, PDF and preview
+        run: python make_visuals.py
+
+      - name: Commit generated visuals
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add visuals/ debate_heat_visual_aids.pdf contact_sheet.png
+          if git diff --cached --quiet; then
+            echo "No generated visual changes to commit."
+          else
+            git commit -m "Build debate visual aids"
+            git pull --rebase origin main
+            git push
+          fi
